@@ -47,8 +47,11 @@
 </script>
 
 
-<div >
-    <h1>{minutes}:{seconds}</h1>
-    <button on:click={toggleState}>{stateButton}</button>
-    <button on:click={resetTimer}>reset</button>
+<div class="container mx-auto flex-col content-center py">
+    <h1 class="text-white text-center text-9xl font-monaco 3font-semibold tracking-wide">{minutes}:{seconds}</h1>
+    <div class="content-center flex justify-center py-5">
+        <button on:click={toggleState} class="btn-timer" >{stateButton}</button>
+        <button on:click={resetTimer}  class="btn-timer">reset</button>
+    </div>
+    
 </div>
