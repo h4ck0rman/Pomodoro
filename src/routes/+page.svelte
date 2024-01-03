@@ -2,5 +2,8 @@
     import "../app.css";
     import Clock from "./clock.svelte";
 </script>
-  
-<Clock />
+ 
+<div class="flex items-center h-screen">
+    <Clock />
+</div>
+
